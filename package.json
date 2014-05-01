@@ -1,0 +1,9 @@
+{
+  "name": "iv-book",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-ember-handlebars": "^0.6.0",
+    "gulp-plumber": "^0.6.1"
+  }
+}
