@@ -8,9 +8,9 @@
       </thead>
       <tbody>
         {{#each}}
-          <tr>
+          {{#link-to "pokemon" this tagName="tr"}}
             <td>{{name}}</td>
-          </tr>
+          {{/link-to}}
         {{/each}}
       </tbody>
     </table>
