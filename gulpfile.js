@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 var handlebars = require('gulp-ember-handlebars');
 
 var paths = {
-  templates: 'templates/**.hbs'
+  templates: 'templates/**/*.hbs'
 };
 
 gulp.task('templates', function() {
