@@ -1,5 +1,7 @@
 IVBook.Router.map(function() {
-  this.resource('pokemons', function() {
-    this.resource('pokemon', { path: ':pokemon_id' });
+  this.resource('pokemons', { path: '/' }, function() {
+    this.resource('pokemon', { path: ':pokemon_id' }, function() {
+      this.route('edit');
+    });
   });
 });
