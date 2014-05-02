@@ -1,3 +1,3 @@
 IVBook.Router.map(function() {
-  this.resource('pokemon', { path: '/' });
+  this.resource('pokemons', { path: '/' });
 });

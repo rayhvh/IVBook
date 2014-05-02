@@ -1,4 +1,4 @@
-IVBook.PokemonRoute = Ember.Route.extend({
+IVBook.PokemonsRoute = Ember.Route.extend({
   model: function() {
     return this.store.find('pokemon');
   }
